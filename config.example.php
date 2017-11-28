@@ -1,0 +1,34 @@
+<?php
+
+  /*
+  *  Copyright (c) daeks, distributed
+  *  as-is and without warranty under the MIT License. See 
+  *  [root]/license.txt for more. This information must remain intact.
+  */
+
+  //////////////////////////////////////////////////////////////////
+  // Database Settings
+  //////////////////////////////////////////////////////////////////
+
+  define('DATABASE', 'mysql.pdo');
+  define('DB_HOST', 'localhost');
+  define('DB_NAME', '');
+  define('DB_USER', '');
+  define('DB_PWD', '');  
+  
+  //////////////////////////////////////////////////////////////////
+  // Twitch Settings
+  //////////////////////////////////////////////////////////////////
+  
+  define('IRC_SERVER', 'irc.twitch.tv');
+  define('IRC_PORT', 6667);
+   
+  //////////////////////////////////////////////////////////////////
+  // Console Settings
+  //////////////////////////////////////////////////////////////////
+    
+  define('CLI_SERVER', 'localhost');
+  define('CLI_PORT', 6667);
+  define('BOTS', 25);
+
+?>
